@@ -15,3 +15,4 @@ We use an in-memory-sql database (dependent on nu-get EntityFrameworkCore.InMemo
 ## [Project: StarwarsConsoleClient](https://github.com/PGBSNH20/spaceparkv2-buddygroup6-renegades/tree/main/Source/StarwarsConsoleClient)
 
 A console application partly migrated from an SpacePark version 1.
+![image](https://user-images.githubusercontent.com/63591629/117511693-78b0c680-af8e-11eb-9b4b-2c729ba36c7c.png)
