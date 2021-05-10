@@ -3,7 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpacePark-API", "SpacePark-API\SpacePark-API.csproj", "{92F1B436-281B-4F73-A9FA-EF7790C76055}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceParkTests", "SpaceParkTests\SpaceParkTests.csproj", "{3BEA1A36-D0D2-4362-B29C-DBCCBDD92DC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpacePark_ModelsDB", "SpacePark_ModelsDB\SpacePark_ModelsDB.csproj", "{462967A0-D8D4-4BB9-B5AF-6AB417717F6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarwarsConsoleClient", "StarwarsConsoleClient\StarwarsConsoleClient.csproj", "{3F0A7BF6-66B9-40A4-AB26-9F5FD7526939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarwarsConsoleClientTests", "StarwarsConsoleClientTests\StarwarsConsoleClientTests.csproj", "{52BBC26F-50DD-4E23-B0A3-06428D22C534}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92F1B436-281B-4F73-A9FA-EF7790C76055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F1B436-281B-4F73-A9FA-EF7790C76055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F1B436-281B-4F73-A9FA-EF7790C76055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F1B436-281B-4F73-A9FA-EF7790C76055}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BEA1A36-D0D2-4362-B29C-DBCCBDD92DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BEA1A36-D0D2-4362-B29C-DBCCBDD92DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BEA1A36-D0D2-4362-B29C-DBCCBDD92DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BEA1A36-D0D2-4362-B29C-DBCCBDD92DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{462967A0-D8D4-4BB9-B5AF-6AB417717F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{462967A0-D8D4-4BB9-B5AF-6AB417717F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{462967A0-D8D4-4BB9-B5AF-6AB417717F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{462967A0-D8D4-4BB9-B5AF-6AB417717F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0A7BF6-66B9-40A4-AB26-9F5FD7526939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0A7BF6-66B9-40A4-AB26-9F5FD7526939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0A7BF6-66B9-40A4-AB26-9F5FD7526939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0A7BF6-66B9-40A4-AB26-9F5FD7526939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BBC26F-50DD-4E23-B0A3-06428D22C534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BBC26F-50DD-4E23-B0A3-06428D22C534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BBC26F-50DD-4E23-B0A3-06428D22C534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BBC26F-50DD-4E23-B0A3-06428D22C534}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

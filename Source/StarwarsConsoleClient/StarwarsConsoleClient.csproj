@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="UI\maps\1.Welcome.txt" />
+    <None Remove="UI\maps\2.Start.txt" />
+    <None Remove="UI\maps\3a.Identification.txt" />
+    <None Remove="UI\maps\3b.Login.txt" />
+    <None Remove="UI\maps\4a.Registration.txt" />
+    <None Remove="UI\maps\5a.RegisterShip.txt" />
+    <None Remove="UI\maps\6.Account.txt" />
+    <None Remove="UI\maps\7.Homeplanet.txt" />
+    <None Remove="UI\maps\7.Parking.txt" />
+    <None Remove="UI\maps\7.Receipts.txt" />
+    <None Remove="UI\maps\7.SelectSpacePort.txt" />
+    <None Remove="UI\maps\8.Exit.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="UI\maps\1.Welcome.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\2.Start.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\3a.Identification.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\3b.Login.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\4a.Registration.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\5a.RegisterShip.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\6.Account.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\7.SelectSpacePort.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\7.Homeplanet.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\7.Parking.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\7.Receipts.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UI\maps\8.Exit.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>

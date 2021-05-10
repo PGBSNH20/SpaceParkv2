@@ -1,0 +1,12 @@
+﻿version: "3"
+services:
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-CU10-ubuntu-20.04
+    hostname: sql-server
+    container_name: sql-server
+    ports:
+      - "41433:1433"
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "StarWars123!"
+      MSSQL_PID: Express

@@ -3,12 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# EntityFramework Migrations Folder
+Source/SpacePark-API/Migrations/*
 # User-specific files
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+connection.txt
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
